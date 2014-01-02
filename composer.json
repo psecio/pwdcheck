@@ -1,0 +1,30 @@
+{
+    "name":"psecio/pwdcheck",
+    "type":"library",
+    "description":"A password complexity validator",
+    "keywords":["password","validate","entropy","complexity"],
+    "homepage":"https://github.com/psecio/pwdcheck.git",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Chris Cornutt",
+            "email":"ccornutt@phpdeveloper.org",
+            "homepage":"http://www.phpdeveloper.org/"
+        }
+    ],
+    "require":{
+        "php":">=5.3.1",
+        "psecio/iniscan": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Psecio": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "bin": [
+        "bin/pwdcheck"
+    ]
+}
