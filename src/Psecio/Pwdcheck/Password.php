@@ -16,7 +16,7 @@ class Password
         'length', 'upperCount', 'lowerCount', 'numberCount',
         'symbolCount', 'symbolNumberMiddle', 'charactersOnly', 'numberOnly',
         'characterRepeat', 'consecUpper', 'consecLower', 'consecNumber',
-        'seqNumber', 'seqCharacter'
+        'seqNumber', 'seqCharacter', 'extra'
     );
 
     public function evaluate($password)
