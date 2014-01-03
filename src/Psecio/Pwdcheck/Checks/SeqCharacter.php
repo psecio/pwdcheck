@@ -21,7 +21,7 @@ class SeqCharacter extends \Psecio\Pwdcheck\Check
     				$current = ord($parts[$i]);
     				$next = ord($parts[$i+1]);
 
-    				if ($next == ($current + 1)) {
+    				if ($next == ($current + 1) || $next == ($current - 1)) {
     					$found -= 1;
     				}
     			}
