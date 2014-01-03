@@ -82,8 +82,6 @@ class Password
 
         }
 
-        print_r($passwordData);
-
         return $passwordData;
     }
 
